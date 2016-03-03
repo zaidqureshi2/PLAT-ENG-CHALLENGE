@@ -1,5 +1,5 @@
 # PLAT-ENG-CHALLENGE
-1. Coding task: Need to finish this coding task in 2 hours.
+1. Coding task:
 please implement an immutable queue with the following api:
 	Scala Version:
 	```scala
