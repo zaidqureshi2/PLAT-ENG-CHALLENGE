@@ -1,6 +1,7 @@
 # PLAT-ENG-CHALLENGE
 1. Coding task:
 please implement an immutable queue with the following api:
+	
 	Scala Version:
 	```scala
 	trait Queue[T] {
