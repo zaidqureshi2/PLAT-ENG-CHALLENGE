@@ -7,7 +7,7 @@ please implement an immutable queue with the following api:
 	trait Queue[T] {
 	  def isEmpty: Boolean
 	  def enQueue(t: T): Queue[T]
-	  def deQueue(t: T): Queue[T]
+	  def deQueue(): Queue[T]
 	  def head: Option[T]
 	}
 	object Queue {
@@ -19,7 +19,7 @@ please implement an immutable queue with the following api:
 	```java
 	public interface Queue[T] {
 	    public Queue<T> enQueue(T t);
-	    public Queue<T> deQueue(T t);
+	    public Queue<T> deQueue();
 	    public T head();
 	    public boolean isEmpty();
 	}
